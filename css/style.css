@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+ h1{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+#websiteTitle{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+.tablink{
+    background-color: rgb(36, 36, 36);
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    border: none;
+
+    
+}
+
+.tablink:hover{
+    background-color: rgba(237, 237, 237, 0.339);
+}
+
+.tabcontent {
+    display: none; /* Hide all tab content by default */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+#tabImages{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+#environmentalTab {
+    background-color: rgb(221, 91, 91);
+}
+#portraitsTab{
+    background-color: rgb(91, 125, 91);
+}
+#expressionTab{
+    background-color: rgb(95, 95, 162);
+}
+#dynamicPosesTab{
+    background-color: rgb(125, 91, 101);
+}
+#lightingTab{
+    background-color: rgb(175, 159, 81);
+}
+
+p{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+
+    width: 200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: center;
+
+
+}
+
+#homepage-1{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        position: center;
+}
