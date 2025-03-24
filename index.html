@@ -6,10 +6,18 @@
     <title>Romanticism Archive</title>
 </head>
 <body>
-    <img id="homepageHeader" src="Romanticism Photos/Edited Photos/RomanticismHeader.jpg" alt="Romanticism Header">
+    <nav> <!-- Top of website navigation bar -->
+        <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="html/gallery.html">Gallery</a></li>
+        <li><a href="html/history.html">History</a></li>
+        </ul>
+    </nav>
+
+    <img id="header" src="Romanticism Photos/Edited Photos/RomanticismHeader.jpg" alt="Romanticism Header">
 
     <!-- Tabs for Filtering -->
-    <div>
+    <div id="tabs">
         <button class="tablink" onclick="openTab('environmentalTab')" id="defaultOpen">Environmental</button>
         <button class="tablink" onclick="openTab('portraitsTab')">Portraits</button>
         <button class="tablink" onclick="openTab('expressionTab')">Expression</button>
@@ -21,86 +29,217 @@
     <div id="environmentalTab" class="tabcontent">
         <h1 id="tabTitle">Environmental</h1>
         <p>Landscape and setting works from the Romanticism Era.</p>
-        <img id="tabImages" src="Romanticism Photos/Wilhelm Bendz/ASmokingParty.jpg" alt="A Smoking Party">
-        <img id="tabImages" src="Romanticism Photos/Wilhelm Bendz/MountainLandscape..jpg" alt="Mountain Landscape">
-        <img id="tabImages" src="Romanticism Photos/Wilhelm Bendz/TheWaagepeterseFamily.jpg" alt="The Waagepeterse Family">
-        <img id="tabImages" src="Romanticism Photos/Caspar David Friedrich/CairnInSnow.jpg" alt="Cairn In Snow">
-        <img id="tabImages" src="Romanticism Photos/Caspar David Friedrich/MonkByTheSea.jpg" alt="Monk By The Sea">
-        <img id="tabImages" src="Romanticism Photos/Caspar David Friedrich/WomanAtAWindow.jpg" alt="Woman At A Window">
-        <img id="tabImages" src="Romanticism Photos/Theodore Gericault/EveningLandscapeWithAnAqueduct.jpg" alt="Evening Landscape with an Aqueduct">
-        <img id="tabImages" src="Romanticism Photos/Victor Vasnetsov/KnightsAtTheCrossroads.jpg" alt="Knights At The Crossroads">
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Wilhelm Bendz/ASmokingParty.jpg" alt="A Smoking Party">
+            <p class="imageName">A Smoking Party by Wilhelm Bendz</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Wilhelm Bendz/MountainLandscape..jpg" alt="Mountain Landscape">
+            <p class="imageName">Mountain Landscape by Wilhelm Bendz</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Wilhelm Bendz/TheWaagepeterseFamily.jpg" alt="The Waagepeterse Family">
+            <p class="imageName">The Waagepeterse Family by Wilhelm Bendz</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Caspar David Friedrich/CairnInSnow.jpg" alt="Cairn In Snow">
+            <p class="imageName">Cairn In Snow by Caspar David Friedrich</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Caspar David Friedrich/MonkByTheSea.jpg" alt="Monk By The Sea">
+            <p class="imageName">Monk By The Sea by Caspar David Friedrich</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Caspar David Friedrich/WomanAtAWindow.jpg" alt="Woman At A Window">
+            <p class="imageName">Woman at a Window by Caspar David Friedrich</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Theodore Gericault/EveningLandscapeWithAnAqueduct.jpg" alt="Evening Landscape with an Aqueduct">
+            <p class="imageName">Evening Landscape with an Aqueduct by Theodore Gericault</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Victor Vasnetsov/KnightsAtTheCrossroads.jpg" alt="Knights At The Crossroads">
+            <p class="imageName">Knights At The Crossroads by Victor Vasnetsov</p>
+        </div> 
+
     </div>
 
     <!-- Portrait Tab and Photos -->
     <div id="portraitsTab" class="tabcontent">
         <h1 id="tabTitle">Portraits</h1>
         <p>Portrait works from the Romanticism Era.</p>
-        <img id="tabImages" src="Romanticism Photos/Joseph Karl Stieler/Beethoven withTheManuscriptOfTheMissaSolemnis.jpg" alt="Beethoven with The Manuscript Of The Missa Solemnis">
-        <img id="tabImages" src="Romanticism Photos/Eugène Delacroix/PortraitOfAWomanInABlueTurban.jpg" alt="Portrait of a Woman in a Blue Turban">
-        <img id="tabImages" src="Romanticism Photos/Theodore Gericault/StudyOfTheModelJoseph.jpg" alt="Study of the Model Joseph">
-        <img id="tabImages" src="Romanticism Photos/Orest Kiprensky/PortraitOfASPushkin.jpg" alt="Portrait of A.S. Pushkin">
-        <img id="tabImages" src="Romanticism Photos/William Mulready/IraAldridgeInTheRoleOfShakespeareOthello.jpg" alt="Ira Aldridge in the Role of Shakespeare's Othello">
-        <img id="tabImages" src="Romanticism Photos/Goya/TheDukeOfWellington.jpg" alt="The Duke of Wellington">
-     </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Joseph Karl Stieler/Beethoven withTheManuscriptOfTheMissaSolemnis.jpg" alt="Beethoven with The Manuscript Of The Missa Solemnis">
+            <p class="imageName">Beethoven with The Manuscript Of The Missa Solemnis by Joseph Karl Stieler</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Eugène Delacroix/PortraitOfAWomanInABlueTurban.jpg" alt="Portrait of a Woman in a Blue Turban">
+            <p class="imageName">Portrait of a Woman in a Blue Turban by Eugène Delacroix</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Theodore Gericault/StudyOfTheModelJoseph.jpg" alt="Study of the Model Joseph">
+            <p class="imageName">Study of the Model Joseph by Theodore Gericault</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Orest Kiprensky/PortraitOfASPushkin.jpg" alt="Portrait of A.S. Pushkin">
+            <p class="imageName">Portrait of A.S. Pushkin by Orest Kiprensky</p>
+        </div>
+
+       <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/William Mulready/IraAldridgeInTheRoleOfShakespeareOthello.jpg" alt="Ira Aldridge in the Role of Shakespeare's Othello">
+            <p class="imageName">Ira Aldridge in the Role of Shakespeare's Othello by William Mulready</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Goya/TheDukeOfWellington.jpg" alt="The Duke of Wellington">
+            <p class="imageName">The Duke of Wellington by Francisco Goya</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/William Blake/VirginAndChild.jpg" alt="Virgin and Child">
+            <p class="imageName">Virgin and Child by William Blake</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Vasily Tropinin/LaceMaker.jpg" alt="Lace Maker">
+            <p class="imageName">Lace Maker by Vasily Tropinin</p>
+        </div>
+
+    </div>
 
     <!-- Expression Tab and Photos -->
     <div id="expressionTab" class="tabcontent">
         <h1 id="tabTitle">Expression</h1>
         <p>Expressive emotions from Romanticism pieces.</p>
-        <img id="tabImages" src="Romanticism Photos/Goya/VenusAndAdonis.jpg" alt="Venus and Adonis">
-        <img id="tabImages" src="Romanticism Photos/Carl Bloch/InARomanOsteria.jpg" alt="In A Roman Osteria">
-        <img id="tabImages" src="Romanticism Photos/Caspar David Friedrich/WomanWithRavenAtTheAbyss.jpg" alt="Woman With Raven At The Abyss">
-        <img id="tabImages" src="Romanticism Photos/Eugène Delacroix/FemmesD'Alger.jpg" alt="Femmes D'Alger">
-        <img id="tabImages" src="Romanticism Photos/William Blake/SatanExultingOverEve.jpg" alt="Satan Exulting Over Eve">
-        <img id="tabImages" src="Romanticism Photos/Francois Rude/DepartureOfTheVolunteersOf1792.jpg" alt="Departure Of The Volunteers Of 1792">
-        <img id="tabImages" src="Romanticism Photos/Carl Spitzweg/ThePoorPoet.jpg" alt="The Poor Poet">
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Goya/VenusAndAdonis.jpg" alt="Venus and Adonis">
+            <p class="imageName">Venus and Adonis by Francisco Goya</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Carl Bloch/InARomanOsteria.jpg" alt="In A Roman Osteria">
+            <p class="imageName">In A Roman Osteria by Carl Bloch</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Caspar David Friedrich/WomanWithRavenAtTheAbyss.jpg" alt="Woman With Raven At The Abyss">
+            <p class="imageName">Woman with a Raven at the Abyss by Caspar David Friedrich</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Eugène Delacroix/FemmesD'Alger.jpg" alt="Femmes D'Alger">
+            <p class="imageName">Femmes D'Alger by Eugène Delacroix</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/William Blake/SatanExultingOverEve.jpg" alt="Satan Exulting Over Eve">
+            <p class="imageName">Satan Exulting Over Eve by William Blake</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Francois Rude/DepartureOfTheVolunteersOf1792.jpg" alt="Departure Of The Volunteers Of 1792">
+            <p class="imageName">Departure Of The Volunteers Of 1792 by Francois Rude</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Carl Spitzweg/ThePoorPoet.jpg" alt="The Poor Poet">
+            <p class="imageName">The Poor Poet by Carl Spitzweg</p>
+        </div>
      </div>
 
     <!-- Dynamic Poses Tab and Photos -->
     <div id="dynamicPosesTab" class="tabcontent">
         <h1 id="tabTitle">Dynamic Poses</h1>
         <p> Dynamic and full body poses from the Romanticism Era.</p>
-        <img id="tabImages" src="Romanticism Photos/Goya/TheSleepOfReasonProducesMonsters.jpg" alt="The Sleep of Reason Produces Monsters">
-        <img id="tabImages" src="Romanticism Photos/Theodore Gericault/TheBoxers.jpg" alt="The Boxers">
-        <img id="tabImages" src="Romanticism Photos/William Blake/AntaeusSettingDownDanteAndVirgilInTheLastCircleOfHell.jpg" alt="Antaeus Setting Down Dante And Virgil In The Last Circle Of Hell">
-        <img id="tabImages" src="Romanticism Photos/Goya/VenusAndAdonis.jpg" alt="Venus and Adonis">
-        <img id="tabImages" src="Romanticism Photos/Francois Rude/DepartureOfTheVolunteersOf1792.jpg" alt="Departure Of The Volunteers Of 1792">
-        <img id="tabImages" src="Romanticism Photos/Eugène Delacroix/FemmesD'Alger.jpg" alt="Femmes D'Alger">
-        <img id="tabImages" src="Romanticism Photos/William Blake/SatanExultingOverEve.jpg" alt="Satan Exulting Over Eve">
-        <img id="tabImages" src="Romanticism Photos/William Blake/TheGreatRedDragonAndTheWomanClothedWithTheSun.jpg" alt="The Great Red Dragon And The Woman Clothed With The Sun">
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Goya/TheSleepOfReasonProducesMonsters.jpg" alt="The Sleep of Reason Produces Monsters">
+            <p class="imageName">The Sleep of Reason Produces Monsters by Francisco Goya</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Theodore Gericault/TheBoxers.jpg" alt="The Boxers">
+            <p class="imageName">The Boxers by Theodore Gericault</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/William Blake/AntaeusSettingDownDanteAndVirgilInTheLastCircleOfHell.jpg" alt="Antaeus Setting Down Dante And Virgil In The Last Circle Of Hell">
+            <p class="imageName">Antaeus Setting Down Dante And Virgil In The Last Circle Of Hell by William Blake</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Goya/VenusAndAdonis.jpg" alt="Venus and Adonis">
+            <p class="imageName">Venus and Adonis by Francisco Goya</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Francois Rude/DepartureOfTheVolunteersOf1792.jpg" alt="Departure Of The Volunteers Of 1792">
+            <p class="imageName">Departure Of The Volunteers Of 1792 by Francois Rude</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Eugène Delacroix/FemmesD'Alger.jpg" alt="Femmes D'Alger">
+            <p class="imageName">Femmes D'Alger by Eugène Delacroix</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/William Blake/SatanExultingOverEve.jpg" alt="Satan Exulting Over Eve">
+            <p class="imageName">Satan Exulting Over Eve by William Blake</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/William Blake/TheGreatRedDragonAndTheWomanClothedWithTheSun.jpg" alt="The Great Red Dragon And The Woman Clothed With The Sun">
+            <p class="imageName">The Great Red Dragon and the Woman Clothed with the Sun by William Blake</p>
+        </div>
     </div>
     
     <!-- Lighting Tab and Photos -->
     <div id="lightingTab" class="tabcontent">
         <h1 id="tabTitle">Lighting</h1>
         <p> Romanticism pieces with strong lighting.</p>
-        <img id="tabImages" src="Romanticism Photos/Goya/VenusAndAdonis.jpg" alt="Venus and Adonis">
-        <img id="tabImages" src="Romanticism Photos/Wilhelm Bendz/ASmokingParty.jpg" alt="A Smoking Party">
-        <img id="tabImages" src="Romanticism Photos/Caspar David Friedrich/MountainLandscapeWithRainbow.jpg" alt="Mountain Landscape with Rainbow">
-        <img id="tabImages" src="Romanticism Photos/Carl Spitzweg/TheBookworm.jpg" alt="The Bookworm">
-        <img id="tabImages" src="Romanticism Photos/Theodore Gericault/EveningLandscapeWithAnAqueduct.jpg" alt="Evening Landscape with an Aqueduct">
-    </div>
 
-    <!-- Gallary (all photos) -->
-    <div>
-        <h1 id="title">Gallery</h1>
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Goya/VenusAndAdonis.jpg" alt="Venus and Adonis">
+            <p class="imageName">Venus and Adonis by Francisco Goya</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Wilhelm Bendz/ASmokingParty.jpg" alt="A Smoking Party">
+            <p class="imageName">A Smoking Party by Wilhelm Bendz</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Caspar David Friedrich/MountainLandscapeWithRainbow.jpg" alt="Mountain Landscape with Rainbow">
+            <p class="imageName">Mountain Landscape with Rainbow by Caspar David Friedrich</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Carl Spitzweg/TheBookworm.jpg" alt="The Bookworm">
+            <p class="imageName">The Bookworm by Carl Spitzweg</p>
+        </div>
+
+        <div class="imageWrap">
+            <img class="tabImages" src="Romanticism Photos/Theodore Gericault/EveningLandscapeWithAnAqueduct.jpg" alt="Evening Landscape with an Aqueduct">
+            <p class="imageName">Evening Landscape with an Aqueduct by Theodore Gericault</p>
+        </div>
     </div>
-    <div id="container">
-        <div> <img id="homepage-1" src="Romanticism Photos/Carl Bloch/InARomanOsteria.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Caspar David Friedrich/CairnInSnow.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Caspar David Friedrich/MonkByTheSea.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Caspar David Friedrich/MountainLandscapeWithRainbow.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Caspar David Friedrich/WomanAtAWindow.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Caspar David Friedrich/WomanWithRavenAtTheAbyss.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Goya/TheSleepOfReasonProducesMonsters.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Goya/VenusAndAdonis.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Joseph Karl Stieler/Beethoven withTheManuscriptOfTheMissaSolemnis.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Wilhelm Bendz/ASmokingParty.jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Wilhelm Bendz/MountainLandscape..jpg"> </div>
-        <div> <img id="homepage-1" src="Romanticism Photos/Wilhelm Bendz/TheWaagepeterseFamily.jpg"> </div>
     
-    </div> 
-    
+    <footer>
+        <p id="footer"> Created by: Christina Ha | Winter 2025 | GRPH-2010-506 </p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="javascript/js.js"> </script>
 </body>
